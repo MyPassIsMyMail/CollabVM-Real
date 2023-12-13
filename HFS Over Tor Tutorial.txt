@@ -1,0 +1,10 @@
+1...	download hfs: https://www.rejetto.com/hfs/?f=dl
+2...	choose a <portNumber> for it and add files to it
+3...	create an OR Hidden Service in your torcc
+
+	3.1...		HiddenServicePort <portNumber> <portNumber>
+	3.2...		HiddenServiceDir <hiddenServiceDir>
+
+
+4...	give users your address:
+			http://HiddenServiceName.onion:<portNumber>
